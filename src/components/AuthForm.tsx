@@ -101,8 +101,8 @@ export default function AuthForm({ mode }: AuthFormProps) {
       </h2>
       <p className="mb-4 sm:mb-6 text-sm" style={{ color: 'var(--login-text-muted)' }}>
         {mode === "login" 
-          ? "Ingresá tu email y contraseña para acceder" 
-          : "Completá los datos para registrarte"}
+          ? "Ingresa tu email y contraseña para acceder" 
+          : "Completa los datos para registrarte"}
       </p>
       
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -261,16 +261,16 @@ export default function AuthForm({ mode }: AuthFormProps) {
       <p className="mt-5 sm:mt-6 text-center text-sm" style={{ color: 'var(--login-text-muted)' }}>
         {mode === "login" ? (
           <>
-            ¿No tenés cuenta?{" "}
+            ¿No tienes cuenta?{" "}
             <a href="/register" className="hover:underline" style={{ color: 'var(--primary)' }}>
-              Registrate
+              Regístrate
             </a>
           </>
         ) : (
           <>
-            ¿Ya tenés cuenta?{" "}
+            ¿Ya tienes cuenta?{" "}
             <a href="/login" className="hover:underline" style={{ color: 'var(--primary)' }}>
-              Iniciá sesión
+              Inicia sesión
             </a>
           </>
         )}

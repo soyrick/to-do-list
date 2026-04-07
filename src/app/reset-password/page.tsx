@@ -80,7 +80,7 @@ export default function ResetPasswordPage() {
             Nueva Contraseña
           </h1>
           <p className="mt-2 sm:mt-3 text-base sm:text-lg" style={{ color: 'var(--login-text-muted)' }}>
-            Ingresá tu nueva contraseña
+            Ingresa tu nueva contraseña
           </p>
         </div>
 

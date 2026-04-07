@@ -28,7 +28,7 @@ export default function RegisterPage() {
             To-Do App
           </h1>
           <p className="mt-2 sm:mt-3 text-base sm:text-lg" style={{ color: 'var(--login-text-muted)' }}>
-            Crea tu cuenta y empezá a gestionar tareas
+            Crea tu cuenta y empieza a gestionar tareas
           </p>
         </div>
         

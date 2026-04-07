@@ -130,7 +130,7 @@ export default async function TasksPage() {
               <h1 className="text-2xl sm:text-3xl font-bold tracking-tight bg-gradient-to-r from-blue-600 via-violet-600 to-cyan-600 bg-clip-text text-transparent">
                 Mis Tareas
               </h1>
-              <p className="text-xs sm:text-sm text-gray-500 hidden sm:block">Organizá tu día</p>
+              <p className="text-xs sm:text-sm text-gray-500 hidden sm:block">Organiza tu día</p>
             </div>
           </div>
           <form action={signOut}>
@@ -172,8 +172,8 @@ export default async function TasksPage() {
             <div className="inline-flex items-center justify-center w-16 h-16 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-blue-100 to-violet-100 mb-3 sm:mb-4">
               <span className="text-3xl sm:text-5xl">🎯</span>
             </div>
-            <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">¡Empezá a organizar tu día!</h3>
-            <p className="text-sm sm:text-base text-gray-500">Agregá votre primera tarea arriba</p>
+            <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">¡Empieza a organizar tu día!</h3>
+            <p className="text-sm sm:text-base text-gray-500">Agrega tu primera tarea arriba</p>
           </div>
         )}
 
@@ -185,7 +185,7 @@ export default async function TasksPage() {
                 {pendingTasks.length}
               </span>
               <span className="bg-gradient-to-r from-gray-700 to-gray-600 bg-clip-text text-transparent">Por hacer</span>
-              <span className="ml-auto text-xs text-gray-400 font-normal hidden sm:block">Tocá para completar</span>
+              <span className="ml-auto text-xs text-gray-400 font-normal hidden sm:block">Toca para completar</span>
             </h2>
             <div className="space-y-2 sm:space-y-3">
               {pendingTasks.map((task, index) => (
