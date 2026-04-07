@@ -109,18 +109,18 @@ src/
 
 ##Licencia
 
-MIT License - Uso libre, podés modificar y distribuir este proyecto como quieras.
+MIT License - Uso libre, puedese modificar y distribuir este proyecto como quieras.
 
 ---
 
 ## 🤝 Contributing
 
-¡Las contribuciones son bienvenidas! Si Encontrás un bug o querés agregar una función, no dudes en abrir un issue o un pull request.
+¡Las contribuciones son bienvenidas! Si encuentras un bug o quieres agregar una función, no dudes en abrir un issue o un pull request.
 
 ---
 
-## 📞 Contacto
+## 📧 Contacto: ricardoenriquegr27@gmail.com
 
-Si tenés alguna duda o sugerencia, podés escribirme o abrir un issue en el repositorio.
+Si tienes alguna duda o sugerencia, puedes escribirme o abrir un issue en el repositorio.
 
 ¡Gracias por usar mi app! 🎉
