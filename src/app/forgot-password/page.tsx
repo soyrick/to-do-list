@@ -34,11 +34,8 @@ export default function ForgotPasswordPage() {
     try {
       const result = await requestPasswordReset(email);
       
-      if (!result.success) {
-        setError(result.error || "Error al solicitar recuperación");
-      } else {
-        setSuccessMessage(result.message || "Revisa tu correo electrónico");
-      }
+      // La función siempre retorna éxito por seguridad
+      setSuccessMessage(result.message || "El enlace de recuperación fue enviado a tu correo");
     } catch (err: unknown) {
       if (err instanceof Error && err.message !== "NEXT_REDIRECT") {
         setError(err.message || "Ocurrió un error");
